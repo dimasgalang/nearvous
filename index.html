@@ -5,22 +5,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="{{ URL::asset('img/favicon.png') }}" type="image/png">
-    {{-- title field --}}
-    @if (isset($title))
-    <title>{{ $title }}</title>
-    @else
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
     <title>Nearvous</title>
-    @endif
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('vendors/linericon/style.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('vendors/owl-carousel/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('vendors/nice-select/css/nice-select.css') }}">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendors/linericon/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/vendors/nice-select/css/nice-select.css">
     <!-- main css -->
-    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -31,7 +26,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="{{ url('/') }}"><img src="{{ URL::asset('img/logo.png') }}"
+                    <a class="navbar-brand logo_h" href="{{ url('/"><img src="assets/img/logo.png"
                             alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -43,10 +38,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav justify-content-end">
-                            <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/#about') }}">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/#service') }}">Service</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/#portfolio') }}">Portfolio</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="{{ url('/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/#service">Service</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/#portfolio">Portfolio</a></li>
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                     aria-haspopup="true" aria-expanded="false">Social Media</a>
@@ -88,7 +83,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="home_right_img">
-                            <img class="" src="img/banner/home-right.png" alt="">
+                            <img class="" src="assets/img/banner/home-right.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -103,7 +98,7 @@
             <div class="row justify-content-start align-items-center">
                 <div class="col-lg-5">
                     <div class="about_img">
-                        <img class="" src="img/about-us.png" alt="">
+                        <img class="" src="assets/img/about-us.png" alt="">
                     </div>
                 </div>
 
@@ -139,21 +134,21 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ URL::asset('img/brands/rootlabs.png') }}" alt="">
+                                    <img src="assets/img/brands/rootlabs.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ URL::asset('img/brands/emp.png') }}" alt="">
+                                    <img src="assets/img/brands/emp.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
-                                    <img src="{{ URL::asset('img/brands/id.png') }}" alt="">
+                                    <img src="assets/img/brands/id.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -198,28 +193,28 @@
             <div class="row feature_inner">
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="{{ URL::asset('img/services/mobile-development.png') }}" alt="" style="width: 68px; width: 68px">
+                        <img src="assets/img/services/mobile-development.png" alt="" style="width: 68px; width: 68px">
                         <h4>Mobile Development</h4>
                         <p>Develop mobile applications according to the application design provided by the client.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="{{ URL::asset('img/services/interactive.png') }}" alt="" style="width: 68px; width: 68px">
+                        <img src="assets/img/services/interactive.png" alt="" style="width: 68px; width: 68px">
                         <h4>Interactive Learning Media</h4>
                         <p>Develop interactive learning media for junior high and high school.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="{{ URL::asset('img/services/web-development.png') }}" alt="" style="width: 68px; width: 68px">
+                        <img src="assets/img/services/web-development.png" alt="" style="width: 68px; width: 68px">
                         <h4>Website Development</h4>
                         <p>Develop personal website, company portfolio, product catalog, etc.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="feature_item">
-                        <img src="{{ URL::asset('img/services/game-development.png') }}" alt="" style="width: 68px; width: 68px">
+                        <img src="assets/img/services/game-development.png" alt="" style="width: 68px; width: 68px">
                         <h4>Game Development</h4>
                         <p>Develop games that contain the material needed in learning.</p>
                     </div>
@@ -259,9 +254,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/qurankidz.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/qurankidz.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/qurankidz.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/qurankidz.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -278,9 +273,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/muslimheir.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/muslimheir.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/muslimheir.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/muslimheir.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -296,10 +291,10 @@
                     <div class="col-lg-4 col-md-6 all mobile">
                         <div class="portfolio_box">
                             <div class="single_portfolio">
-                                <img class="img-fluid w-100" src="{{ URL::asset('img/portfolio/project/cobile.jpg') }}"
+                                <img class="img-fluid w-100" src="assets/img/portfolio/project/cobile.jpg"
                                     alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/cobile.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/cobile.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -316,9 +311,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/chemical.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/chemical.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/chemical.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/chemical.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -335,9 +330,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/hydrochem.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/hydrochem.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/hydrochem.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/hydrochem.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -353,10 +348,10 @@
                     <div class="col-lg-4 col-md-6 all mobile">
                         <div class="portfolio_box">
                             <div class="single_portfolio">
-                                <img class="img-fluid w-100" src="{{ URL::asset('img/portfolio/project/eibadah.jpg') }}"
+                                <img class="img-fluid w-100" src="assets/img/portfolio/project/eibadah.jpg"
                                     alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/eibadah.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/eibadah.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -373,9 +368,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/indonesiadirect.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/indonesiadirect.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/indonesiadirect.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/indonesiadirect.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -394,9 +389,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/askingfor.png') }}" alt="">
+                                    src="assets/img/portfolio/project/askingfor.png" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/askingfor.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/askingfor.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -413,9 +408,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/kladogram.png') }}" alt="">
+                                    src="assets/img/portfolio/project/kladogram.png" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/kladogram.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/kladogram.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -431,10 +426,10 @@
                     <div class="col-lg-4 col-md-6 all interactive">
                         <div class="portfolio_box">
                             <div class="single_portfolio">
-                                <img class="img-fluid w-100" src="{{ URL::asset('img/portfolio/project/spltv.png') }}"
+                                <img class="img-fluid w-100" src="assets/img/portfolio/project/spltv.png"
                                     alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/spltv.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/spltv.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -452,10 +447,10 @@
                     <div class="col-lg-4 col-md-6 all web">
                         <div class="portfolio_box">
                             <div class="single_portfolio">
-                                <img class="img-fluid w-100" src="{{ URL::asset('img/portfolio/project/idw.png') }}"
+                                <img class="img-fluid w-100" src="assets/img/portfolio/project/idw.png"
                                     alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/idw.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/idw.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -474,9 +469,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/equalchem.jpg') }}" alt="">
+                                    src="assets/img/portfolio/project/equalchem.jpg" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/equalchem.jpg') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/equalchem.jpg" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -492,10 +487,10 @@
                     <div class="col-lg-4 col-md-6 all ongoing web">
                         <div class="portfolio_box">
                             <div class="single_portfolio">
-                                <img class="img-fluid w-100" src="{{ URL::asset('img/portfolio/project/guarder.png') }}"
+                                <img class="img-fluid w-100" src="assets/img/portfolio/project/guarder.png"
                                     alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/guarder.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/guarder.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -513,9 +508,9 @@
                         <div class="portfolio_box">
                             <div class="single_portfolio">
                                 <img class="img-fluid w-100"
-                                    src="{{ URL::asset('img/portfolio/project/landcovering.png') }}" alt="">
+                                    src="assets/img/portfolio/project/landcovering.png" alt="">
                                 <div class="overlay"></div>
-                                <a href="{{ URL::asset('img/portfolio/project/landcovering.png') }}" class="img-gal">
+                                <a href="assets/img/portfolio/project/landcovering.png" class="img-gal">
                                     <div class="icon">
                                         <span class="lnr lnr-cross"></span>
                                     </div>
@@ -550,7 +545,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/development.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/development.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -566,7 +561,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/animation.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/animation.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -581,7 +576,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/freelance.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/freelance.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -595,7 +590,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/development.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/development.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -611,7 +606,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/animation.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/animation.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -626,7 +621,7 @@
                     <div class="testi_item">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img src="{{ URL::asset('img/experiences/freelance.png') }}" alt="" style="width: 130px; height: 130px">
+                                <img src="assets/img/experiences/freelance.png" alt="" style="width: 130px; height: 130px">
                             </div>
                             <div class="col-lg-8">
                                 <div class="testi_text">
@@ -651,7 +646,7 @@
                     <div class="footer_top flex-column">
                         <div class="footer_logo">
                             <a href="#">
-                                <img src="{{ URL::asset('img/logo.png') }}" alt="">
+                                <img src="assets/img/logo.png" alt="">
                             </a>
                         </div>
                         <div class="footer_social">
@@ -675,21 +670,21 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope-min.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/mail-script.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/stellar.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendors/isotope/isotope-min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/mail-script.js"></script>
     <!--gmaps Js-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="assets/js/gmaps.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
